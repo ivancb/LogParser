@@ -1,0 +1,73 @@
+body
+{
+
+	background-color:#DDFFFF;
+	font-family:'Times New Roman',serif;
+	font-size:14px;
+    color:#363636;
+    padding:5px;
+    width:100%;
+}
+
+table {
+	width:100%;
+    border-collapse:collapse;
+}
+
+table,td,tr
+{
+    border: 2px solid black;
+}
+
+td
+{
+    width:100px;
+    text-align:center;
+    vertical-align:middle;
+    font-weight:bold;
+}
+
+thead
+{
+    color:#4781A8;
+    text-align:center;
+    background-color:#FBD089;
+}
+
+.sectionHeader
+{
+	font-size:22px;
+    color:#664433;
+}
+
+.section
+{
+    border-style:groove;
+    background-color:#CEE5F8;
+    border-color:#5F7FFF;
+    border-radius:15px;
+    padding:10px;
+    font-size:14px;
+    width:95%;
+}
+
+.logContentColumn
+{
+	display:inline-block;
+	width:45%;
+	vertical-align: top;
+}
+
+.logUploadColumn
+{
+	display:inline-block;
+	margin-left:20px;
+	width:45%;
+	vertical-align: top;
+}
+
+.error
+{
+	color:#DD3333;
+	font-size:20px;
+}
